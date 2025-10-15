@@ -19,7 +19,7 @@ setuptools.setup(
         "License :: OSI Approved :: BSD License",
         "Operating System :: OS Independent",
     ],
-    python_requires='==3.7.*',
+    python_requires='>=3.7',
     include_package_data=True,
     install_requires=[
 	'dash>=1.20.0',
